@@ -1,14 +1,10 @@
-const SITE_CONFIG = {
-  name: "[NOME DO ESCRITÓRIO]",
-  city: "[CIDADE — UF]",
-  phone: "(00) 00000-0000",
-  whatsappNumber: "5500000000000",
-  whatsappMessage: "Olá! Gostaria de agendar uma consulta.",
-  address: "[Endereço do escritório]",
-  hours: "Seg — Sex • 09:00 — 18:00",
-  mapUrl: "https://www.google.com/maps/search/?api=1&query=Brasil",
+window.SITE_CONFIG = {
+  name: "Lexa",
+  whatsappMode: "MOCKED",
+  defaultMessage: "Olá! Encontrei seu perfil na Lexa e gostaria de agendar uma conversa.",
   images: {
-    office: "images/escritorio.jpg",
-    lawyers: ["images/advogado-1.jpg", "images/advogado-2.jpg", "images/advogado-3.jpg"]
+    office: "https://images.unsplash.com/photo-1582653547187-2bb73b2d7b67?auto=format&fit=crop&w=1200&q=85",
+    lawyer: "https://images.unsplash.com/photo-1662104935883-e9dd0619eaba?auto=format&fit=crop&w=1000&q=85",
+    lawyerTwo: "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=1000&q=85"
   }
 };

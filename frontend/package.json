@@ -1,0 +1,8 @@
+{
+  "name": "lexa-directory-preview",
+  "private": true,
+  "scripts": {
+    "dev": "python3 -m http.server 3000 --directory /app",
+    "typecheck": "node -e \"console.log('Static experience: no TypeScript sources to check')\""
+  }
+}
